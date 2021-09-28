@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gainsboro;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #22749486;
+  position: fixed;
+  font-size: 18px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgLogoPrincipal {
+  height: 85px;
+  margin-left: 9%;
+  margin-bottom: 12px;
+}
+.barraNav {
+  width: auto;
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-bottom: 33px;
+}
+.barraNav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+}
+.barraNav li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.barraNav a:hover {
+  color: gold;
+}
+main {
+  position: relative;
+  top: 60px;
+}
+.galleryContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 65vh;
+}
+div.galleryContainer div.galleryItem {
+  flex: 1;
+  height: 100%;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: flex 0.5s ease-in-out;
+}
+.galleryItem span {
+  color: #1b1919;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 8px;
+  background-color: #b7d2d6;
+  opacity: 0.8;
+  transition: opacity 0.8s ease;
+  border-radius: 5px;
+}
+div.galleryContainer div.galleryItem:hover span {
+  opacity: 0;
+}
+
+.galleryContainer .galleryItem:hover {
+  flex: 5;
+}
+.galleryContainer .galleryItem.itemOne {
+  background-image: url(../Imagenes/El\ mausoleo\ de\ Halicarnaso.png);
+}
+.galleryContainer .galleryItem.itemTwo {
+  background-image: url(../Imagenes/Templo\ de\ Artemisa\ en\ Éfeso.png);
+}
+.galleryContainer .galleryItem.itemThree {
+  background-image: url(../Imagenes/Zeus\ en\ Olimpia.png);
+}
+.galleryContainer .galleryItem.itemFour {
+  background-image: url(../Imagenes/Coloso\ de\ Rodas\ .jpeg);
+}
+.galleryContainer .galleryItem.itemFive {
+  background-image: url(../Imagenes/Pirámide\ de\ Giza.jpeg);
+}
+.galleryContainer .galleryItem.itemSix {
+  background-image: url(../Imagenes/El\ faro\ de\ Alejandría.png);
+}
+.galleryContainer .galleryItem.itemSeven {
+  background-image: url(../Imagenes/Jardines\ Colgantes\ de\ Babilonia.png);
+}
+.SectionTwo {
+  margin: 10% 5% 10px 5%;
+  background-image: url(../Imagenes/MarmolGray.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1.5%;
+}
+.introSectionTwo {
+  background-color: #0000009d;
+  width: 80%;
+  height: 70px;
+  margin: 0px 3% 3% 9%;
+  padding-top: 15px;
+  color: #f6f6f6b4;
+  text-align: center;
+}
+.introSectionTwo:hover {
+  background-color: #000000;
+  transform: scale(1.5);
+}
+.imgTxtSubSection {
+  margin: 5% 5% 5% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgTxtSubSection img {
+  width: 180px;
+  height: 250px;
+}
+.imgTxtSubSection img:hover {
+  transform: scale(1.8);
+  box-shadow: 1px 4px 4px 1px #ffffff;
+  border-radius: 10%;
+}
+.tituloLugares {
+  font-size: 46px;
+  color: #227596fa;
+}
+.tituloLugares:hover {
+  text-shadow: 2px 1px black;
+}
+.imgTxtSubSectionTxt {
+  padding: 0px 10% 0px 10%;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: center;
+}
+.imgTxtSubSectionTxt a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.imgTxtSubSectionTxt a:hover {
+  color: rgb(5, 34, 100);
+}
+.sectionThree {
+  margin: 5% 2% 5% 2%;
+  background-color: #22759650;
+}
+.generalDivSectionThree {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 5%;
+}
+.sectionThree h2 {
+  padding: 10px 0px 15px 0px;
+  font-size: 90px;
+  background-color: cadetblue;
+  text-align: center;
+}
+.sectionThree h2:hover {
+  color: honeydew;
+  background-color: #8b8f98a2;
+}
+.gifSectionThree {
+  margin-top: 5%;
+  text-align: center;
+}
+.gifSectionThree img {
+  width: 900px;
+  height: 550px;
+}
+.nombreSectionThree {
+  font-size: 27px;
+}
+.nombreSectionThree:hover {
+  transform: scale(1.5);
+  color: aliceblue;
+}
+.sectionFour {
+  margin: 7% 7% 7% 7%;
+  background-color: #b0d9e963;
+}
+.generalDivF {
+  display: block;
+}
+.titleSectionFourOneTwo {
+  font-size: 70px;
+  text-align: center;
+  padding-top: 4%;
+}
+.variosRecomendadosLoMasLeido {
+  display: flex;
+  flex-direction: row;
+}
+.subRecomendadosLoMasLeido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 3%;
+}
+.subTitleSectionFour {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.subTitleSectionFour:hover {
+  text-shadow: 2px 2px #ffffff;
+}
+.subRecomendadosLoMasLeido img {
+  width: 350px;
+  height: 350px;
+}
+.subRecomendadosLoMasLeido img:hover {
+  transform: translateY(10px);
+}
+.subRecomendadosLoMasLeido p {
+  margin-top: 8%;
+  text-align: center;
+}
+.subRecomendadosLoMasLeido a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #4c8bc5ec;
+}
+.subRecomendadosLoMasLeido a:hover {
+  color: white;
+}
+.divPrincipalFooter {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footerSection {
+  display: block;
+}
+.titleFooter {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+.footerSection p {
+  color: white;
+  padding: 14px;
+}
+.footerSection p:hover {
+  color: gold;
+}
+.footerSectionRedes p {
+  color: gold;
+}
+.footerSectionRedes img {
+  margin-top: 100px;
+  padding: 10px 5px;
+}
+.footerSectionRedes img:hover {
+  background-color: gold;
+}
